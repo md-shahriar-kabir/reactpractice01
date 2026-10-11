@@ -1,4 +1,4 @@
-# Assignment 1 : NexusFlow Landing Page (React + Vite + Tailwind CSS v4)
+# Practice 1 : NexusFlow Landing Page (React + Vite + Tailwind CSS v4)
 
 Learn with Sumit (LWS) - React & Next.js Assignment 1
 
