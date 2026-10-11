@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Geist', sans-serif;
+  --font-mono: 'Geist Mono', monospace;
+
+  --color-geist-background: #000000;
+  --color-geist-surface: #0a0a0a;
+  --color-geist-card: #111111;
+  --color-geist-border: #222222;
+  --color-geist-border-subtle: #1a1a1a;
+  --color-geist-border-hover: #333333;
+  --color-geist-foreground: #ededed;
+  --color-geist-muted: #888888;
+  --color-geist-accent: #0070f3;
+  --color-geist-cyan: #50e3c2;
+  --color-geist-purple: #7928ca;
+  --color-geist-pink: #ff0080;
+}
+
+/* Vercel-style custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
+
+/* Vercel Grid Background with Crosshairs */
+.vercel-grid {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+}
+
+/* Vercel Conic Ambient Glow */
+.vercel-glow {
+  background: radial-gradient(circle 400px at 50% 0%, rgba(120, 119, 198, 0.12), transparent 70%);
+}
