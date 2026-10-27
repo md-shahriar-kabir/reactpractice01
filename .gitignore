@@ -25,3 +25,11 @@ dist-ssr
 requirements.md
 index.html.original
 config.bat
+
+# Environment variables & secrets (added by GitHub Guardian)
+*.env
+!.env.example
+!.env.sample
+.envrc
+.venv/
+venv/
